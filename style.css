@@ -1,0 +1,129 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+margin:0;
+font-family:Arial;
+background:#89c4ff;
+}
+*{cursor: pointer;}
+/* .navv{display: flex;
+    justify-content: space-evenly;
+} */
+
+.hehe{border:2px solid black}
+.hehe:hover{color:rgb(239, 247, 16);
+border-color:white;
+transition: 0.5s;}
+
+.try{border:2px solid transparent}
+.try:hover{border-color:black;}
+
+.btw{position: sticky;
+    top:0px;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+background:#45aeff;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+height: 30px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.search input{
+padding:6px;
+border-radius:4px;
+border:2px solid transparent;
+}
+.search input:hover{border-color:black}
+
+.hero{
+height:50vh;
+background:url("navbar.jpg") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+border:2px solid black;
+transition: 0.5s;
+}
+.hero:hover{border-color:white;
+transform: scale(1.1);}
+
+.hero h1{
+color:white;
+font-size:50px;
+background:rgba(0,0,0,0.5);
+padding:20px;
+border-radius:10px;
+}
+
+.section{
+padding:20px 50px;
+color: white;
+scroll-margin-top: 80px;
+}
+.section h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+.card{
+    color: black;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.card:hover{transform: scale(1.1);
+}
+.card img{
+width:100%;
+height:300px;
+object-fit:cover;
+}
+.card{transition:0.3s;}
+
+.card h3{
+text-align:center;
+padding:10px;
+}
+
+footer{display: flex;
+    justify-content: space-around;
+    background:#45aeff;
+color:white;
+text-align:center;
+padding:15px;
+}
+i{font-size: 20px;
+    margin:10px;
+    color: white;
+}
+footer i:hover{
+color:red;
+transform: scale(1.2);
+transition:0.3s;
+}
+.hehe{color:white;}
